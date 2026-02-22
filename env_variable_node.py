@@ -6,7 +6,7 @@ class EnvVariableNode:
                 "key": (
                     "STRING",
                     {
-                        "default": "OPENAI_API_KEY",
+                        "default": "ENV_VARIABLE_KEY",
                         "multiline": False,
                     },
                 ),
@@ -21,4 +21,7 @@ class EnvVariableNode:
     def get_value(self, key):
         import os
 
-        return (os.environ.get(key, ""),)
+        if key not in os.environ:
+            raise KeyError(f"Environment variable '{key}' was not found.")
+
+        return (os.environ[key],)
