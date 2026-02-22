@@ -22,6 +22,8 @@ git clone https://github.com/wtesler/ComfyUI-EnvVariable.git
 
 There are no additional requirements to install.
 
+2. Search and download "ComfyUI-EnvVariable" from Custom Nodes Manager.
+
 ## Environment Variable Setup
 
 Set the variable either in System Environment Variables or in your ComfyUI launch script (`set MY_KEY=...`).
