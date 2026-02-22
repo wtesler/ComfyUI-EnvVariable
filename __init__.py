@@ -1,9 +1,14 @@
-from .env_variable_node import EnvVariableNode
+from .nodes import EnvVariableNode
+
 
 NODE_CLASS_MAPPINGS = {
-    "EnvVariable": EnvVariableNode,
+    "Environment Variable": EnvVariableNode,
 }
 
+
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "EnvVariable": "Environment Variable",
+    "Environment Variable": "Environment Variable",
 }
+
+
+__all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]

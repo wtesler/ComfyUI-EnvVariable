@@ -1,0 +1,15 @@
+[project]
+name = "ComfyUI-EnvVariable"
+description = "Minimal ComfyUI custom node that outputs an environment variable value by key."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/wtesler/ComfyUI-EnvVariable"
+# Used by Comfy Registry: https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "wtesler"
+DisplayName = "ComfyUI-EnvVariable"
+Icon = ""
