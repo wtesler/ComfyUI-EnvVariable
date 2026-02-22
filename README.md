@@ -17,7 +17,7 @@ Behavior:
 
 ## Install
 
-1. Clone into `ComfyUI/custom_nodes/`:
+Option 1. Clone into `ComfyUI/custom_nodes/`:
 
 ```bash
 git clone https://github.com/wtesler/ComfyUI-EnvVariable.git
@@ -25,7 +25,7 @@ git clone https://github.com/wtesler/ComfyUI-EnvVariable.git
 
 There are no additional requirements to install.
 
-2. Search and download "ComfyUI-EnvVariable" from Custom Nodes Manager.
+Option 2. Search and download "ComfyUI-EnvVariable" from Custom Nodes Manager.
 
 ## Environment Variable Setup
 
