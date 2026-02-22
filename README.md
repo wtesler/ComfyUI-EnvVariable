@@ -2,6 +2,9 @@
 
 Minimal ComfyUI custom node that reads an environment variable by key and outputs it as a string.
 
+<img width="607" height="278" alt="Node Preview" src="https://github.com/user-attachments/assets/26837b08-6c6b-4377-9eaa-a6308646ad50" />
+
+
 ## Node
 
 - Name: `Environment Variable`
